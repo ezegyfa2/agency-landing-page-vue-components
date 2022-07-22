@@ -1,0 +1,13 @@
+@import "../globals.scss";
+
+.title {
+    @extend .primary-text;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+.content {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

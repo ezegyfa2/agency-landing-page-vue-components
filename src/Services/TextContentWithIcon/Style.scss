@@ -1,0 +1,15 @@
+@import "../../globals.scss";
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: $primaryColor !important;
+}
+.title {
+    @extend .primary-text;
+    line-height: 1.2;
+}
+.content {
+    @extend .secondary-text;
+    font-size: 1rem;
+    line-height: 1.5;
+}

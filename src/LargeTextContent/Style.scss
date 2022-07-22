@@ -1,0 +1,31 @@
+@import "../globals.scss";
+
+.title {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: $secondaryFontFamily;
+}
+.content {
+    @extend .primary-text;
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-family: $secondaryFontFamily;
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+    .content {
+        @extend .primary-text;
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+    }
+}

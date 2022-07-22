@@ -1,0 +1,10 @@
+li(v-bind:class='isInvertedClass')
+    .timeline-image
+        img.rounded-circle.img-fluid(v-bind:src='image_url' alt='image_alt')
+    .timeline-panel
+        .timeline-heading
+            h4 {{ date_interval }}
+            h4.subheading {{ title }}
+        .timeline-body
+            p.text-muted
+                | {{ content }}

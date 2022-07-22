@@ -1,0 +1,9 @@
+.py-5
+    .container
+        .row.align-items-center
+            .col-md-3.col-sm-6.my-3(
+                v-for='imageBrandSection in image_brand_sections'
+            )
+                dynamic-component(
+                    v-bind:component_infos='imageBrandSection'
+                )

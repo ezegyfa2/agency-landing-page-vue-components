@@ -1,0 +1,30 @@
+$primaryFontFamily: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$secondaryFontFamily: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$primaryColor: #ffc800;
+$secondaryColor: #ced4da;
+
+.primary-text {
+    font-weight: 700;
+    font-family: $primaryFontFamily;
+}
+.secondary-text {
+    font-weight: 400;
+    font-family: $secondaryFontFamily;
+}
+.btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+}
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+    font-family: $secondaryFontFamily;
+    font-size: 1.125rem;
+    font-weight: 700;
+}

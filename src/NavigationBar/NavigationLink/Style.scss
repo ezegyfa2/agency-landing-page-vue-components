@@ -1,0 +1,14 @@
+@import "../../globals.scss";
+
+.nav-link {
+    font-family: $primaryFontFamily;
+    font-size: 0.95rem;
+    color: #fff;
+    letter-spacing: 0.0625em;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    margin-right: 1rem;
+}
+.nav-link.active, .nav-link:hover {
+    color: $primaryColor;
+}
