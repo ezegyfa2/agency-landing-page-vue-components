@@ -5,10 +5,13 @@
         mixins: [
             NavigationBar
         ],
-        data() {
-            return {
-                addedClasses: {
-                    'root': 'navbar-dark'
+        props: {
+            added_classes: {
+                type: Object,
+                default() {
+                    return{
+                        'root': 'navbar-dark'
+                    }
                 }
             }
         }

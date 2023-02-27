@@ -10,12 +10,13 @@
             },
             timeline_section: {
                 type: Object
-            }
-        },
-        data() {
-            return {
-                addedClasses: {
-                    '.content': 'text-uppercase'
+            },
+            added_classes: {
+                type: Object,
+                default() {
+                    return {
+                        'content.': 'text-uppercase'
+                    }
                 }
             }
         }
