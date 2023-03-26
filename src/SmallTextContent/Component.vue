@@ -5,10 +5,13 @@
         mixins: [
             MediumTextContent
         ],
-        data() {
-            return {
-                addedClasses: {
-                    '.content': 'text-muted'
+        props: {
+            added_classes: {
+                type: Object,
+                default() {
+                    return {
+                        '.content': 'text-muted'
+                    }
                 }
             }
         }

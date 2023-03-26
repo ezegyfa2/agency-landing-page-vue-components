@@ -5,10 +5,13 @@
         mixins: [
             LargeTextContent
         ],
-        data() {
-            return {
-                addedClasses: {
-                    '.content': 'text-uppercase'
+        props: {
+            added_classes: {
+                type: Object,
+                default() {
+                    return {
+                        '.content': 'text-uppercase'
+                    }
                 }
             }
         }
